@@ -1,0 +1,28 @@
+.row{
+    margin-top: 80px;
+    margin-left: 15px;
+    width: 80%;
+}
+#editar{
+    margin-left: 10%;
+    text-align: center;
+    color: black;
+}
+
+#botoneditar{
+    padding: 10px;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+@media (min-width:700px){
+    #editar{
+        margin-left: 30%;
+    }
+}
+
+
+
+

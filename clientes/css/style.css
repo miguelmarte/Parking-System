@@ -1,0 +1,161 @@
+html {
+    box-sizing: border-box;
+    min-width: 100%;
+    margin:0 !important;
+    position: relative;
+}
+
+header.masthead .device-container .screen img {
+    margin-top: 0px;
+}
+
+#mainNav.navbar-shrink .navbar-nav>li>a,
+#mainNav.navbar-shrink .navbar-nav>li>a:focus {
+    color: white;
+    text-align: center;
+}
+
+header.masthead {
+    color: white;
+    height: auto;
+}
+
+#mainNav.navbar-shrink .navbar-brand {
+    color: white;
+}
+
+.logo {
+    width: 40px;
+    margin-left: 40%;
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 100%;
+    }
+    .col-lg-8,.col-lg-4{
+        margin-left: 32%;
+    }
+    
+}
+
+#bienvenido {
+    margin-left: 7px;
+}
+
+.col-sm-6 {
+    margin-left: 0;
+}
+#arriba{
+    margin-top: 130px;
+}
+#abajo{
+    padding-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+    .col-sm-6 {
+        margin-left: 20%;
+    }
+}
+
+form {
+    text-align: center;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+select {
+    padding: 2px;
+    width: 60%;
+    border: none;
+    border-radius: 10px;
+}
+
+@media (min-width:700px) {
+    .logo {
+        margin-left: 0px;
+    }
+    select {
+        width: 40%;
+    }
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.514);
+}
+
+#reg {
+    padding: 10px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+#mainNav .navbar-nav>li>a:hover {
+    color: #fdcc52!important;
+}
+
+html {
+    width: 100% !important;
+}
+
+.row {
+    margin: 0;
+    margin-top: 20px;
+    display: block;
+}
+
+#mainNav .navbar-nav>li>a {
+    text-align: center;
+    color: #fdcc52;
+}
+
+#mainNav .navbar-toggler {
+    font-size: 1rem;
+    color: #fdcc52;
+    margin-left: 40%;
+}
+
+hr {
+    color: white;
+}
+
+table {
+    text-align: center;
+}
+
+.reg-v {
+    margin-bottom: 40px!important;
+    margin-top: 40px;
+}
+
+.table-dark {
+    background-color: rgba(0, 0, 0, 0.514);
+    border-radius: 5px;
+}
+
+button:not(:disabled) {
+    padding: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button:not(:disabled):hover {
+    background-color: rgba(165, 20, 20, 0.342);
+    color: white;
+}
+
+div {
+    width: 100%;
+    height: auto;
+    /*background: url(../Images/contenido.jpg);*/
+    overflow: auto;
+}
+#twitter{
+    background: url(../../imagenes/gorjeo.png);
+    width: 20px;
+    height: 20px;
+}

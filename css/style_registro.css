@@ -1,0 +1,93 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+}
+
+body {
+    background-image: url('../imagenes/jueves.jpg') ;
+    background-size: 1400px 675px;
+}
+
+.form-register{
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 50px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 25px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px rgb(226, 19, 19);
+}
+@media (min-width:770px){
+    .form-register{
+        width: 30%;
+    }
+    
+}
+
+.form-register h4 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: georgia ;
+    text-align: center;
+}
+
+.controls {
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 14px;
+    border: 1px solid #8a0707;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+
+}
+
+::placeholder{
+    color: white;
+}
+
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register .botons{
+    width: 100%;
+    background-color:blue;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 25px;
+    
+}
+.material-icons{
+    color: white;
+    position: absolute;
+    margin-left: -2%;
+    margin-top: 0.5%;
+}
+
